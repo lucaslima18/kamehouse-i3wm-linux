@@ -1,0 +1,11 @@
+#!/bin/bash
+setxkbmap br
+blueman-applet &
+killall i3bar &
+dunst &
+picom --config ~/.config/picom.conf &
+xrandr --auto --output DP-1 --mode 1920x1080 --rate 165 --primary --output HDMI-1 --rate 75 --right-of DP-1 --rotate right &
+polybar -c ~/.config/polybar/config.ini bar &
+~/.fehbg &
+# ~/back4.sh auto ~/git/foo-Wallpaper-Feh-Gif/gif/corps.gif &
+
