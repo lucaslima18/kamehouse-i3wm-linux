@@ -1,0 +1,11 @@
+asdf-vm
+beekeeper-studio
+cava
+google-chrome
+lazydocker
+ocs-url
+spotify
+trash
+visual-studio-code-bin
+yay
+yay-debug
